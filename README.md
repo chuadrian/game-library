@@ -1,4 +1,4 @@
-A simple game library built using Vuejs
-Sign up and log in form
+A simple game library built using Vuejs.
+Sign up and login form
 v-pagination
-Parctice on using vue js
+Practice on using Vuejs
