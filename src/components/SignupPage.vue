@@ -345,4 +345,51 @@
     background: linear-gradient(90deg, #00d4ff, #00ffcc);
     box-shadow: 0 0 20px rgba(0, 212, 255, 0.9);
   }
+    @media (max-width: 768px) {
+    .auth-container {
+      max-width: 90%;
+      padding: 20px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .form-input {
+      padding: 10px;
+    }
+    .submit-button {
+      padding: 10px 20px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .auth-container {
+      max-width: 80%;
+      padding: 15px;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+    .form-input {
+      padding: 8px;
+    }
+    .submit-button {
+      padding: 8px 15px;
+    }
+  }
+
+    @media (max-width: 320px) {
+    .auth-container {
+      max-width: 70%;
+      padding: 10px;
+    }
+    .form-group {
+      margin-bottom: 5px;
+    }
+    .form-input {
+      padding: 5px;
+    }
+    .submit-button {
+      padding: 5px 10px;
+    }
+    }
   </style>
