@@ -84,7 +84,7 @@ export default {
     }
   }
 
- 
+  
   @media (max-width: 768px) {
     .book-list {
       grid-template-columns: repeat(2, 1fr);
@@ -98,8 +98,10 @@ export default {
 
   @media (max-width: 480px) {
     .book-list {
+      justify-content: center;
       grid-template-columns: 1fr;
       gap: 10px;
+      align-items: center;
     }
     .book-item {
       margin-bottom: 8px;
@@ -123,4 +125,3 @@ export default {
     }
   }
 </style>
-  
