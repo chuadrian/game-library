@@ -428,4 +428,105 @@ button:hover {
     font-size: 1.2rem;
   }
 }
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  .book-list, .favorites-list {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+
+  .book-item, .favorite-item {
+    font-size: 0.9rem;
+  }
+
+  .book-item img, .favorite-item img {
+    height: 180px;
+  }
+
+  .book-item h3, .favorite-item h3 {
+    font-size: 1rem;
+  }
+
+  .book-item p, .favorite-item p {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .book-list, .favorites-list {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.5rem;
+  }
+
+  .book-item, .favorite-item {
+    font-size: 0.8rem;
+  }
+
+  .book-item img, .favorite-item img {
+    height: 150px;
+  }
+
+  .book-item h3, .favorite-item h3 {
+    font-size: 0.9rem;
+  }
+
+  .book-item p, .favorite-item p {
+    font-size: 0.7rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  button {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .book-list, .favorites-list {
+    grid-template-columns: 1fr;
+  }
+
+  .book-item img, .favorite-item img {
+    height: auto;
+    max-height: 200px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
 </style>
