@@ -51,4 +51,27 @@ input:focus {
     outline: none;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+@media (max-width: 768px) {
+  input {
+    padding: 10px 15px;
+    max-width: 300px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  input {
+    padding: 8px 12px;
+    max-width: 250px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  input {
+    padding: 6px 10px;
+    max-width: 200px;
+    font-size: 10px;
+  }
+}
 </style>
